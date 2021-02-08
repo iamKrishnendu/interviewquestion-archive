@@ -1,0 +1,134 @@
+API Questions
+
+1) How to parse a json
+2) How to parse a xml
+3) How to Insert key:value based upon some searching criteria
+4) Write code for conversion of json to xml and xml to json
+5) what do you mean by query parameter and path parameter 
+6) what is the difference between put and patch
+7) what are the validation while API automation
+8) Explain your framework(Rest Assured)
+9) what do you mean my object notation and array notation in json
+10) write code for json Read
+11) what do you mean by POJO why we use POJO
+12) what do you mean by authentication and what are the types of authentication while API testing
+13) what is the difference between URI and URL
+14) how do you store result and use further in groovy scripting
+15) what do you mean by Test runner in groovy scripting
+16) what is the Rest service architecture
+17) what is the soap service architecture
+18) what is the soap ui work hirarchy
+19) how to set and get property using groovy scripting
+20) what do you mean by jsonsluper and xmlholder 
+21) how to convert json to Hashmap 
+22) what do you mean by Data source Data Sink and Data Source loop and why do we use it 
+23) how to handle SSL in SoapUI
+24) what are the different type of properties in SoapUI how you declare using groovy scripting
+25) What is the main thing while API automation.
+26) what do you mean by Webservices and why do we use Webservices.
+27) what is the difference between soap and Rest.
+28) what do you mean by UDDI .and what do you mean by WSDL.
+29) what are the different type of HTTP Methods.
+30) how to parse a list from a json for example there is json and there are multiple IDs how you will parse all the IDs from json and how you will parse a particular I'd from that json.
+
+===============================================================================================================================================================
+Coding questions for automation testing
+===============================================================================================================================================================
+
+1. Write the o/p for below code:
+String s1 = new String("abc");
+String s2 = new String("abc");
+System.out.println(s1 == s2); False
+StringBuffer sb1 = new StringBuffer(s1);
+System.out.println(s1.equals(sb1)); False
+
+String s3 = "abc";
+s3.intern();
+System.out.println(s1 ==s3); False
+
+2. What all OOps Concept has been used in below Pgm:
+
+public class BaseClass{
+private Integer myIntegerValue;
+
+public void testMethod(){  (Method Overriding)
+System.out.println("Inside Test Method");
+}
+private void showMethod(){     
+System.out.println("Inside Show Method");
+}
+}
+public class DerivedClass extends BaseClass{  //( Inheritance)
+public void testMethod(){  (Method Overriding)
+System.out.println("inside derived test method");
+}
+public void showMethod(){                    // (Method Overriding)
+System.out.println("Inside derived show method");
+}
+}
+ 
+
+3. Write Output for the below code:
+@test (priority 0)
+{}
+@test (priority 1)
+{
+}
+@test (priority 2)
+{
+}
+@test (priority -1)
+{
+}
+@test (priority 0)
+{
+}
+=====
+4. Write a program Ind12ia45 to print in below format 
+op- Indiamy1245
+========
+
+5. git diff
+
+6.Binary no. program
+
+7. Write a syntax to find 3rd highest salary.
+
+8.Desired Capabilities Syntax
+
+9. Open the google chrome and write a xpath of "I'm Feeling Lucky"
+
+10. How to Setup and execute testcases in different Virtual Machine.?
+
+11. How to Convert Hashmap to Array
+12. What is hashmap?
+13. How HasMap work Internally.
+
+14. diff b/w /, //
+
+15. How Failed TC will rerun Automatically.
+
+========================================================================================================================================
+Automation Questions - 2
+========================================================================================================================================
+1.        What is scrum and kanban?
+2.        Is webdriver a class or interface then which class is implementing methods of webdriver?
+3.        Example of method overloading in selenium.
+4.        Can we take screenshot in headless mode?
+5.        Have you worked on jenkins? Have you triggered headless mode from jenkins.
+6.        Return type of driver.getwindowhandle and getwindowhandles?
+7.        what is fluent wait?
+8.        How do you manage branches of code in you project?
+9.        Have you done mac os testing with RPA.
+10.        What is out in system .out.print ln?
+11.        What is alert() in driver .switchTo()?
+12.        What is super interface of webdriver interface
+13.        Expected exceptions annotation in testng.
+14.        How to check and run failed test cases of project.
+15.        How to map objects coming from a json response where the response is very big (country--> city1 --> city2 more details) and we can't check it manually. How will handle the json.
+16.        Upcasting and down casting in java
+17.        Is map a part of collection? What is hashmap?
+18.        Have you worked on any device testing like Appium?
+19.        Have you performed BDD testing?
+20.        What was the last issue that you got when executing script or you check as first parameter.
+21.        Have you worked on docker and Kubernetes?
